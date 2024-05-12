@@ -3,3 +3,10 @@
     padding: 0;
     margin: 0;
 }
+.wrapper {
+    text-align: center;
+}
+.books-container {
+    display: flex;
+    flex-direction: row;
+}
