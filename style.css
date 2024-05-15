@@ -10,3 +10,8 @@
     display: flex;
     flex-direction: row;
 }
+.books-card {
+    background-color: red;
+    padding: 0.5em;
+    margin: 0.5em;
+}
