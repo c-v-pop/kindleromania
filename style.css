@@ -32,3 +32,10 @@ header {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
+
+@media only screen and (max-width: 750px) {
+    .books-container {
+        display: flex;
+        flex-direction: column;
+    }
+  }
