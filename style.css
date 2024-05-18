@@ -26,8 +26,10 @@ header {
 }
 .books-container {
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
-    
+    gap: 1em;
+    margin-bottom: 3em;
 }
 .book-description {
     text-align: center;
@@ -36,19 +38,28 @@ header {
     margin: 0.8em;
 }
 .books-card {
+    width: 26em;
     background-color: wheat;
     margin: 0.5em;
     border-radius: 1em;
 }
 .book-img-cover {
-    width: 90%;
+    width: 100%;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+}
+.books-card:hover {
+    scale: 1.1;
+    transition: 1s ease;
 }
 
 @media only screen and (max-width: 750px) {
     .books-container {
         display: flex;
         flex-direction: column;
+    }
+    .books-card {
+        width: 95%;
+        margin-left: auto;
     }
   }
