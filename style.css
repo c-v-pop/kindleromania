@@ -19,7 +19,7 @@ header {
     font-weight: 700;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0 25em;
+    margin: 0 2em;
 }
 .wrapper {
     text-align: center;
@@ -27,6 +27,13 @@ header {
 .books-container {
     display: flex;
     flex-direction: row;
+    
+}
+.book-description {
+    text-align: center;
+}
+.book-description h2, p {
+    margin: 0.8em;
 }
 .books-card {
     background-color: wheat;
@@ -34,7 +41,7 @@ header {
     border-radius: 1em;
 }
 .book-img-cover {
-    width: 100%;
+    width: 90%;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
