@@ -44,7 +44,8 @@ header {
     border-radius: 1em;
 }
 .book-img-cover {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
